@@ -5,11 +5,17 @@ Stable Diffusion pipeline used for creating image locally. For API, FastAPI used
 ## Before Run the Code: 
 
 Create new folder and create virtual Python environtment by using :
-
-python -m venv .venv
-
-After that, activate the python environment ad run pip install "fastapi[standard]"
-
+```python
+  python -m venv .venv
+```
+After that, activate the python environment.
+```python
+.venv\Scripts\Activate
+```
+Finally, run 
+```python
+pip install "fastapi[standard]"
+```
 By this, we initialize our environment and ready to work it.
 
 ## Installing Necessary Libraries

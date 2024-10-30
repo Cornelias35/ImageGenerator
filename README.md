@@ -20,6 +20,14 @@ To be able to create image, we need to download
 * HuggingFace Transformers
 * HuggingFace Accelerate (which improves speed for the execution of pipeline)
 
+## main.py
+
+It contains FastAPI code to initialize server and create necesssary functions. "/generate_imae" path contains pipeline functionality and used to create images.
+
+## ImageGenerator.ipynb
+
+This is sample code that takes prompt as input and send it to FastAPI server. The file is .ipynb because of ease of use.
+
 
 
 

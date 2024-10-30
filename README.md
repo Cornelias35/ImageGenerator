@@ -28,7 +28,7 @@ To be able to create image, we need to download
 
 ## main.py
 
-It contains FastAPI code to initialize server and create necesssary functions. "/generate_imae" path contains pipeline functionality and used to create images.
+It contains FastAPI code to initialize server and create necesssary functions. "/generate_image" path contains pipeline functionality and used to create images.
 
 ## ImageGenerator.ipynb
 

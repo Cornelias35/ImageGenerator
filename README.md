@@ -15,10 +15,10 @@ By this, we initialize our environment and ready to work it.
 ## Installing Necessary Libraries
 
 To be able to create image, we need to download
-* PyTorch (If Nvidia GPU owned, download supported version for cuda)
-* HuggingFace Diffusers
-* HuggingFace Transformers
-* HuggingFace Accelerate (which improves speed for the execution of pipeline)
+* [PyTorch](https://pytorch.org/) (If Nvidia GPU owned, download supported version for cuda)
+* [HuggingFace Diffusers](https://huggingface.co/docs/diffusers/en/installation)
+* [HuggingFace Transformers](https://huggingface.co/docs/transformers/en/installation)
+* [HuggingFace Accelerate](https://huggingface.co/docs/accelerate/en/basic_tutorials/install) (Optional, which improves speed for the execution of pipeline)
 
 ## main.py
 
